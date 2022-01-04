@@ -1,0 +1,28 @@
+:root {
+    /* Color styles */
+--rouge-sang: rgba(155, 3, 15, 1);
+--bleu-footer: rgba(238, 238, 238, 1);
+--blanc: rgba(255, 255, 255, 1);
+--noir-base: rgba(0, 0, 0, 1);
+
+/* Text-size styles */
+--légende: 14px;
+--corp-de-texte: 18px;
+--Titres: 24px;
+--Accueil-Titre-Site: 40px;
+--Accueil-Titre-2: 36px;
+
+/* Police-Style */
+--font-family-OS: 'Open Sans', sans-serif;
+--font-family-Paris: 'Parisienne', cursive;
+--font-family-PlDi: 'Playfair Display', serif;
+
+/* Espaces */
+--space1x: 8px;
+--space2x: 16px;
+--space3x: 24px;
+--space4x: 48px;
+--space5x: 80px;
+}
+
+

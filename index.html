@@ -20,13 +20,13 @@
             @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
             :class="{ 'header--atTop' : !atTop }">
 
-            <nav>
-                <ul>
-                    <li><a href="Article1.html">Description de 1815</a></li>
-                    <li><a href="Article2.html">Mise en scène des Catacombes</a></li>
-                    <li><a href="Article3.html">Histoire et description des années 2000</a></li>
-                    <li><a href="AutresProjets.html">Autres projets</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item"><a class="menu__link" href="Article1.html">Description de 1815</a></li>
+                    <li class="menu__item"><a class="menu__link" href="Article2.html">Mise en scène des Catacombes</a></li>
+                    <li class="menu__item"><a class="menu__link" href="Article3.html">Histoire et description des années 2000</a></li>
+                    <li class="menu__item"><a class="menu__link" href="AutresProjets.html">Autres projets</a></li>
+                    <li class="menu__item"><a class="menu__link" href="Contact.html">Contact</a></li>
                 </ul>
             </nav>
 
@@ -40,6 +40,7 @@
 
 
     </header>
+    
     <p>Des secrets enfouis sous Paris</p>
     <img src="./public/img/Component 12.webp" alt="Bouton switch">
     <img src="./public/img/Rectangle 1.webp" alt="rectangle noir">
