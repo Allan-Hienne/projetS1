@@ -1,3 +1,79 @@
-fond_noir {
-    
+header {
+    position: absolute;
+    width: 1119px;
+    height: 1367px;
+    left: -264px;
+    top: 0px;
+
+    background-image: url("/public/img/Component\ 21.webp");
 }
+
+.fond {
+    position: absolute;
+    width: 375px;
+    height: 295px;
+    left: 0px;
+    top: 736px;
+    background:url("/public/img/Rectangle\ 9.webp");
+}
+
+.header_button_menu {
+    position: static;
+    left: 0%;
+    right: 91.64%;
+    top: 0%;
+    bottom: 30%;
+}
+
+
+
+.header_button_menu2 {
+    visibility: hidden;
+}
+
+.logo_site {
+    position: static;
+left: 92.26%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+.switch_bouton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px;
+    
+    position: absolute;
+    width: 31px;
+    height: 54px;
+    left: 172px;
+    }
+    
+    .Crânes {
+    position: absolute;
+    width: 512px;
+    height: 336px;
+    left: -9px;
+    top: 1031px;
+    
+    background: url(Catacombs+1.jpg);
+    
+    }
+    
+    .fondu {
+        position: absolute;
+    width: 508px;
+    height: 421px;
+    left: -74px;
+    top: 946px;
+    
+    background: linear-gradient(180.1deg, #000000 26.79%, #7D7D7D 99.92%);
+    background-blend-mode: hard-light;
+    opacity: 0.8;
+    }
+
+
+
+

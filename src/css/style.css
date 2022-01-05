@@ -15,6 +15,7 @@
 
 @import url("./layout/header.css");
 @import url("./layout/footer.css");
+@import url("./layout/carousel.css");
 
 /* Pages */
 
@@ -29,7 +30,14 @@
 @import url("./vendors/normalize.css");
 
 body {
+    margin: 0%;
+    padding: 0%;
+}
 
+section .container {
+    position: relative;
+width: 375px;
+height: 3855px;
 }
 
 

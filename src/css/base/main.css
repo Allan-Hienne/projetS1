@@ -1,0 +1,43 @@
+h1 {
+font-family: var(--font-family-Paris);
+font-size: var(--Accueil-Titre-Site);
+color: var(--bleu-footer);
+}
+
+h2 {
+font-family: var(--font-family-Paris);
+font-size: var(--Titres);
+color: var(--noir-base);
+}
+
+h3 {
+font-family: var(--font-family-PlDi);
+font-size: var(--Accueil-Titre-2);
+color: var(--noir-base);
+}
+
+h4 {
+font-family: var(--font-family-PlDi);
+font-size: var(--Titres);
+color: var(--noir-base);
+}
+
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+
+
+
+
+
+
+
+.noscroll,
+.noscroll body {
+  overflow: hidden;
+}

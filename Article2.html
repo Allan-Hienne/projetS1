@@ -9,8 +9,9 @@
     <title>Des secrets enfouis sous Paris</title>
 
     <link rel="stylesheet" href="src/css/style.css">
-
-    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+	<script src="/src/js/fonction.js"></script>
 
 </head>
 <body>
@@ -54,21 +55,31 @@
     </article>
     
     <article>
+
         <p>Bande annonce</p>
         <img src="./public/img/Line 4 (1).webp" alt="ligne blanche">
         <img src="./public/img/image 1.webp" alt="vidéo">
         <p>Vous pourriez aimer</p>
         <img src="./public/img/Line 4.webp" alt="Ligne rouge horiz">
-        <img src="./public/img/fjhgjkjl 2.webp" alt="Film1">
-        <img src="./public/img/poiuytrez 2.webp" alt="Film2">
-        <img src="./public/img/poiuytrez 4.webp" alt="Film3">
-        <img src="./public/img/rtdh 1.webp" alt="Film4">
-        <img src="./public/img/kjk 1.webp" alt="Film5">
-        <img src="./public/img/hgfhjjg 1.webp" alt="Film6">
-        <img src="./public/img/sdf 1.webp" alt="Film7">
-        <img src="./public/img/gjkkul 1.webp" alt="Film8">
-        <img src="./public/img/egt 1.webp" alt="Film9">
-        <img src="./public/img/Sans titre-1 1.webp" alt="Film10">
+
+    <div class="exemples carrousel">
+        <div class="carousel">
+            <div class="images10">
+                <img id="img1" class="image10" src="./public/img/fjhgjkjl 2.webp" alt="Film1">
+                <img id="img2" class="image10" src="./public/img/poiuytrez 2.webp" alt="Film2">
+                <img id="img3" class="image10" src="./public/img/poiuytrez 4.webp" alt="Film3">
+                <img id="img4" class="image10" src="./public/img/rtdh 1.webp" alt="Film4">
+                <img id="img5" class="image10" src="./public/img/kjk 1.webp" alt="Film5">
+                <img id="img6" class="image10" src="./public/img/hgfhjjg 1.webp" alt="Film6">
+                <img id="img7" class="image10" src="./public/img/sdf 1.webp" alt="Film7">
+                <img id="img8" class="image10" src="./public/img/gjkkul 1.webp" alt="Film8">
+                <img id="img9" class="image10" src="./public/img/egt 1.webp" alt="Film9">
+                <img id="img10" class="image10" src="./public/img/Sans titre-1 1.webp" alt="Film10">
+            </div>
+        </div>
+    </div>
+    <script>carrousel();</script>
+
     </article>
 
     <footer>
@@ -78,6 +89,6 @@
         <p>A propos : Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
         <img src="./public/img/mmi logo 1.webp" alt="logo MMI">
     </footer>
-    
+
 </body>
 </html>

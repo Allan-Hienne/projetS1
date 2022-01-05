@@ -1,0 +1,25 @@
+
+.images10{
+    width: 6600px;
+    height: 323px;
+    
+}
+
+.images10 img{
+    width: 220px;
+    height: 300px;
+}
+
+.image10{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
+.carrousel{
+    width: 220px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+} 
