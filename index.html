@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site des secrets enfouis sous Paris">
     
     <title>Des secrets enfouis sous Paris</title>
 
@@ -14,37 +13,48 @@
 
 </head>
 
-<body x-data="{ atTop: true }">
+<body class="index">
 
-    <header class="header container" 
-            @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
-            :class="{ 'header--atTop' : !atTop }">
+    <header>
 
-            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
-                <ul class="menu__list list-unstyled">
-                    <li class="menu__item"><a class="menu__link" href="Article1.html">Description de 1815</a></li>
-                    <li class="menu__item"><a class="menu__link" href="Article2.html">Mise en scène des Catacombes</a></li>
-                    <li class="menu__item"><a class="menu__link" href="Article3.html">Histoire et description des années 2000</a></li>
-                    <li class="menu__item"><a class="menu__link" href="AutresProjets.html">Autres projets</a></li>
-                    <li class="menu__item"><a class="menu__link" href="Contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <nav>
 
-            <div class="header__start">
-                <a href="/">
-                    <img class="header__logo" src="public\img\Logoo.png" alt="logo du site">
-                  </a>
-                </div>
-                <img src="./public/img/azerrty 1.webp" alt="crâne rouge">
-                <img src="./public/img/Component 5.webp" alt="logo menu">
+        <img src="./public/img/Component 5.webp" alt="logo menu" class="header_button_menu" id="toggleIcon" onclick="menuToggle()">
+        <img src="./public/img/Component 5.webp" alt="logo menu"class="header_button_menu2">
+        <a href="/">
+            <img class="header__logo" src="public\img\Logoo.png" alt="logo du site">
+            <img src="./public/img/azerrty 1.webp" alt="Crânes rouge">
+          </a>
 
+        <div id="menu-overlay" class="nav" style="visibility: hidden;">
+            <ul class="menu_ul">
+                <div class="menu_li menu_liens"> <img src="./public/img/Component 12.webp" id="toggleIcon" onclick="menuToggle()" class="menu-cross"> </div>
+                <li class="menu_li"><a href="Article1.html">Description de 1815</a></li>
+                <li class="menu_li"><a href="Article2.html">Mise en scène des Catacombes</a></li>
+                <li class="menu_li"><a href="Article3.html">Histoire et description des années 2000</a></li>
+                <li class="menu_li"><a href="AutresProjets.html">Autres projets</a></li>
+                <li class="menu_li"><a href="Contact.html">Contact</a></li>
+            </ul>
+
+            <script type="text/javascript">
+                function menuToggle(){
+                    var nav = document.getElementById('menu-overlay');
+                    nav.classList.toggle('active');
+    
+                    var nav = document.getElementById('toggleIcon');
+                    nav.classList.toggle('active');
+                    }
+            </script>
+
+            </div>
+    </nav>
 
     </header>
     
     <p>Des secrets enfouis sous Paris</p>
-    <img src="./public/img/Component 12.webp" alt="Bouton switch">
-    <img src="./public/img/Rectangle 1.webp" alt="rectangle noir">
-    <img src="./public/img/Catacombs+1 2.webp" alt="image catacombe">
+    <img src="./public/img/Component 12.webp" alt="Bouton switch" class="Switch_bouton">
+    <img src="./public/img/Rectangle 1.webp" alt="rectangle noir" class="fond noir">
+    <img src="./public/img/Catacombs+1 2.webp" alt="image catacombe" class="Crânes">
 
     <article>
         <p>« Description de 1815 »</p>

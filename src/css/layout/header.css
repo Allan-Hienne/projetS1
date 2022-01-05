@@ -1,0 +1,17 @@
+header {
+position: absolute;
+width: 1119px;
+height: 746px;
+left: -264px;
+top: 0px;
+    background-image: url("/public/img/azerrty\ 1.webp");
+}
+
+.header_button_menu {
+    padding-left: 20%;
+}
+
+.header_button_menu2 {
+    visibility: hidden;
+}
+
